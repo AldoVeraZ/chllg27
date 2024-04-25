@@ -1,0 +1,29 @@
+/* Catalog.css */
+.catalog {
+  margin: 20px;
+  padding: 10px;
+  color: lime;
+}
+
+.slider-item {
+  margin-right: 10px;
+}
+
+.slider-item a {
+  text-decoration: none;
+}
+
+.slider-item a:hover,
+.slider-item a:active,
+.slider-item a:focus {
+  text-decoration: none;
+}
+
+/* Sobreescritura de los estilos predeterminados para los puntos del slider */
+.slick-dots li button:before {
+  color: #00ffff; /* Cambia los puntos a blanco */
+}
+
+.slick-dots li.slick-active button:before {
+  color: #00ffff; /* Mantiene los puntos del slide activo en blanco */
+}

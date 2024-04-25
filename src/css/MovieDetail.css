@@ -1,0 +1,11 @@
+.movie-detail {
+  display: flex;
+  align-items: flex-start;
+  gap: 20px;
+  margin: 20px;
+  padding: 10px;
+}
+
+.movie-info {
+  max-width: 600px;
+}
